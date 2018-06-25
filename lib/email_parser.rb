@@ -10,7 +10,7 @@ class EmailParser
   end 
   
   def parse
-    binding.pry
+    # binding.pry
     new_list = @emails.split(/\,| /)
     new_list
   end 
