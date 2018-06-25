@@ -12,6 +12,6 @@ class EmailParser
   def parse
     # binding.pry
     new_list = @emails.split(/\,| /)
-    new_list
+    final_list = new_list.delete_if
   end 
 end 
